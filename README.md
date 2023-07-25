@@ -21,6 +21,22 @@ Runs next lint to set up Next.js' built-in ESLint configuration:
 npm run lint 
 ```
 
+## E2E Testing
+
+To create the tests using Cepress run:
+```bash
+npm run cypress:open 
+```
+
+To run tests in CLI run:
+```bash
+npm run cy:run
+```
+
+To run tests from a single spec file use:
+```bash
+npm run cy:run -- --record --spec "cypress/e2e/my-spec.cy.js"
+```
 
 
 ## Deploy on Vercel
